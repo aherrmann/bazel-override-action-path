@@ -1,0 +1,5 @@
+load("defs.bzl", "demo")
+
+demo(name = "demo")
+
+cc_binary(name = "runner", srcs = ["runner.cc"])
